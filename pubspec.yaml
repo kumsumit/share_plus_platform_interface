@@ -1,0 +1,30 @@
+name: share_plus_platform_interface
+publish_to: none
+description: A common platform interface for the share_plus plugin.
+version: 3.3.0
+homepage: https://plus.fluttercommunity.dev/
+repository: https://github.com/fluttercommunity/plus_plugins/tree/main/packages/
+
+dependencies:
+  cross_file: ^0.3.3+4
+  flutter:
+    sdk: flutter
+  meta: ^1.9.1
+  mime: ^1.0.4
+  plugin_platform_interface: 
+    git: https://github.com/kumsumit/plugin_platform_interface.git
+  path_provider: 
+    git: https://github.com/kumsumit/path_provider.git
+  uuid: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.4.0
+  flutter_lints: 
+    git: https://github.com/kumsumit/flutter_lints.git
+  test: ^1.22.0
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+  flutter: ">=3.13.0"
