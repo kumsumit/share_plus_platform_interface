@@ -1,3 +1,14 @@
+## 4.0.0
+
+> Note: This release has breaking changes.
+
+ - **BREAKING** **REFACTOR**(share_plus): Share API cleanup ([#2832](https://github.com/fluttercommunity/plus_plugins/issues/2832)). ([fd0511ca](https://github.com/fluttercommunity/plus_plugins/commit/fd0511ca4d55db1e075e72af5a0832b5cfe81244))
+
+## 3.4.0
+
+ - **FIX**(share_plus): add sharePositionOrigin parameter to shareUri ([#2517](https://github.com/fluttercommunity/plus_plugins/issues/2517)). ([f896d94e](https://github.com/fluttercommunity/plus_plugins/commit/f896d94e6c24551d9dc7d73d8fb05a0f283e0e83))
+ - **FEAT**(share_plus): Use XFile.name whenever possible, shorten UUID filenames, and improve I/O throughput ([#2713](https://github.com/fluttercommunity/plus_plugins/issues/2713)). ([734321b8](https://github.com/fluttercommunity/plus_plugins/commit/734321b82d51fc3201113a6ca645c9bebb0282a2))
+
 ## 3.3.1
 
  - chore(deps): bump uuid from 3.0.7 to 4.0.0
